@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:gravity="center_vertical|right"
+    android:id="@+id/lista"
+    android:background="@drawable/background"
+    android:clickable="true"
+    android:paddingLeft="16dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="left"
+        android:padding="4dp"
+        android:text="Wydarzenie"
+        android:id="@+id/Tytul"
+        android:textSize="20dp"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="20.05.2017 9:00 sala 1A"
+        android:id="@+id/datais"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_above="@+id/szczeguly"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Początek opisu..."
+        android:id="@+id/szczeguly"
+        android:textSize="12dp"
+        android:gravity="left"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
